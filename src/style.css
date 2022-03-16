@@ -5,7 +5,9 @@ nav {
     box-sizing: border-box;
     padding:2em;
     background-image: url('./oyster_BG.jpeg');
-    border-bottom: white solid 0.2em;
+    background-size: contain;
+    border-bottom: black solid 1em;
+    padding-bottom:14em;
       
 }
 
@@ -77,10 +79,87 @@ nav {
     
     background-color:red; 
     width:100%; 
-    height:32em;
-
+    text-align: center;
+   
 }
 
+.food_description{
+
+    font-size: 3.5em;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 1000;
+    margin-bottom:0;
+    margin-top:0;
+    
+}
+
+
+.image_container{
+
+    height:15em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.image_overlay{
+
+    height:15em;
+    box-sizing: border-box;
+    padding-top:4em;
+    
+    
+}
+
+
+.about_us_bg {
+
+    background-color: black;
+    width: 100%;
+    box-sizing: border-box;
+    padding:7em;
+    text-align: center;
+    border-top:1.5em red solid;
+    border-bottom:1.5em red solid;
+    
+}
+
+.about_img{
+
+    width:30em;
+   
+}
+
+.about_des{
+
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+
+.image_gallery_container{
+
+    height:15em;
+    width:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:inline-block;
+    
+    
+}
+
+.image_gallery_overlay{
+
+    height:15em;
+    width:50%;
+    box-sizing: border-box;
+    
+   
+}
 
 .footer_text{
 
@@ -104,7 +183,7 @@ footer{
     background-image:url('./grain.jpg');
     background-size: contain;
     width:100%; 
-    border-top: white solid 0.2em;
+    border-top: black solid 1em;
     text-align: center;
     
 }
@@ -143,6 +222,36 @@ footer{
         margin-top: 0.6em;
     }
 
+    .food_description{
+
+        font-size: 2.5em;
+    }
+
+    .about_img{
+
+        width:18em;
+        
+    }
+
+    .about_us_bg {
+
+        background-color: black;
+        width: 100%;
+        box-sizing: border-box;
+        padding:4em;
+        text-align: center;
+        border-top:1.5em red solid;
+        border-bottom:1.5em red solid;
+        
+    }
+
+    .about_des{
+
+        color:white;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 400;
+        font-size: 1.2em;
+    }
 }
 
 
